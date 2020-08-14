@@ -1,0 +1,14 @@
+
+@import url('https://fonts.googleapis.com/css?family=Hind:300,400');
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+body {
+  margin: 5;
+  padding: 5;
+  font-family: 'Hind', sans-serif;
+  background: #fff;
+  color: #4d5974;
+}

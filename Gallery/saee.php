@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>Image Gallery</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
+        <link rel="stylesheet" type="text/css" href="css/lightbox.min.css"/>
+        <script src="js/lightbox-plus-jquery.min.js"></script>
+    </head>
+    <body>
+        <h1>Gallery</h1>
+        <div class = "gallery">
+            <a href="images/Starters/1.jpeg" data-lightbox = "mygallery" data-title="starter"><img src="images/Starters/1.jpeg" height="200" width="300" /></a>
+            <a href="images/Starters/2.jpg" data-lightbox = "mygallery" data-title="starter"><img src="images/Starters/2.jpg" height="200" width="300" /></a>
+            <a href="images/Starters/3.jpg" data-lightbox = "mygallery" data-title="starter"><img src="images/Starters/3.jpg" height="200" width="300" /></a>
+            <a href="images/Starters/4.jpg" data-lightbox = "mygallery" data-title="starter"><img src="images/Starters/4.jpg" height="200" width="300" /></a>
+            <a href="images/Starters/5.jpg" data-lightbox = "mygallery" data-title="starter"><img src="images/Starters/5.jpg" height="200" width="300" /></a>
+            <a href="images/Starters/6.jpg" data-lightbox = "mygallery" data-title="starter"><img src="images/Starters/6.jpg" height="200" width="300" /></a>
+            <a href="images/Starters/7.jpg" data-lightbox = "mygallery" data-title="starter"><img src="images/Starters/7.jpg" height="200" width="300" /></a>
+            <a href="images/Starters/8.jpg" data-lightbox = "mygallery" data-title="starter"><img src="images/Starters/8.jpg" height="200" width="300" /></a>
+            <a href="images/Starters/9.jpg" data-lightbox = "mygallery" data-title="starter"><img src="images/Starters/9.jpg" height="200" width="300" /></a>
+            <a href="images/Starters/10.jpg" data-lightbox = "mygallery" data-title="starter"><img src="images/Starters/10.jpg" height="200" width="300" /></a>
+            
+            <a href="images/MainCourse/1.jpg" data-lightbox = "mygallery" data-title="MainCourse"><img src="images/MainCourse/1.jpg" height="200" width="300" /></a>
+            <a href="images/MainCourse/2.jpg" data-lightbox = "mygallery" data-title="MainCourse"><img src="images/MainCourse/2.jpg" height="200" width="300" /></a>
+            <a href="images/MainCourse/3.jpg" data-lightbox = "mygallery" data-title="MainCourse"><img src="images/MainCourse/3.jpg" height="200" width="300" /></a>
+            <a href="images/MainCourse/4.jpg" data-lightbox = "mygallery" data-title="MainCourse"><img src="images/MainCourse/4.jpg" height="200" width="300" /></a>
+            <a href="images/MainCourse/5.jpg" data-lightbox = "mygallery" data-title="MainCourse"><img src="images/MainCourse/5.jpg" height="200" width="300" /></a>
+            <a href="images/MainCourse/6.jpg" data-lightbox = "mygallery" data-title="MainCourse"><img src="images/MainCourse/6.jpg" height="200" width="300" /></a>
+            <a href="images/MainCourse/7.jpg" data-lightbox = "mygallery" data-title="MainCourse"><img src="images/MainCourse/7.jpg" height="200" width="300" /></a>
+            <a href="images/MainCourse/8.jpg" data-lightbox = "mygallery" data-title="MainCourse"><img src="images/MainCourse/8.jpg" height="200" width="300" /></a>
+            <a href="images/MainCourse/9.jpg" data-lightbox = "mygallery" data-title="MainCourse"><img src="images/MainCourse/9.jpg" height="200" width="300" /></a>
+            <a href="images/MainCourse/10.jpg" data-lightbox = "mygallery" data-title="MainCourse"><img src="images/MainCourse/10.jpg" height="200" width="300" /></a>
+            
+            <a href="images/Drinks/1.jpg" data-lightbox = "mygallery" data-title="Drinks"><img src="images/Drinks/1.jpg" height="200" width="300" /></a>
+            <a href="images/Drinks/2.jpg" data-lightbox = "mygallery" data-title="Drinks"><img src="images/Drinks/2.jpg" height="200" width="300" /></a>
+            <a href="images/Drinks/3.jpg" data-lightbox = "mygallery" data-title="Drinks"><img src="images/Drinks/3.jpg" height="200" width="300" /></a>
+            <a href="images/Drinks/4.jpg" data-lightbox = "mygallery" data-title="Drinks"><img src="images/Drinks/4.jpg" height="200" width="300" /></a>
+            <a href="images/Drinks/5.jpg" data-lightbox = "mygallery" data-title="Drinks"><img src="images/Drinks/5.jpg" height="200" width="300" /></a>
+            <a href="images/Drinks/6.jpg" data-lightbox = "mygallery" data-title="Drinks"><img src="images/Drinks/6.jpg" height="200" width="300" /></a>
+            <a href="images/Drinks/7.jpg" data-lightbox = "mygallery" data-title="Drinks"><img src="images/Drinks/7.jpg" height="200" width="300" /></a>
+            <a href="images/Drinks/8.jpg" data-lightbox = "mygallery" data-title="Drinks"><img src="images/Drinks/8.jpg" height="200" width="300" /></a>
+            <a href="images/Drinks/9.jpg" data-lightbox = "mygallery" data-title="Drinks"><img src="images/Drinks/9.jpg" height="200" width="300" /></a>
+            <a href="images/Drinks/10.jpg" data-lightbox = "mygallery" data-title="Drinks"><img src="images/Drinks/10.jpg" height="200" width="300" /></a>
+        </div>
+		<div>
+			<center>
+				<button type="button" class="btn btn-warning btn-lg">
+					<a href="../index.php"><span class="badge badge-dark">Back To Homepage</span></a>
+				</button>
+			</center>
+		</div>
+		<br>
+    </body>
+</html>

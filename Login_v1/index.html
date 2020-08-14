@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="toast.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+  <div class="image">
+      <img src="2.png">
+    </div>
+
+	<div class="login-page">
+    
+  <div class="form">
+    
+
+      <input type="email" placeholder="Email Address" id="email" />
+      <input type="password" placeholder="Password" id="password" />
+      <button onclick="signIn()">Sign In</button><br><br>
+      <button onclick="GoogleLogin()">
+       <i class="fa fa-google" aria-hidden="true"></i>Sign In with Google</button><br><br>
+       <button onclick="Continue()">Back to Ordermania</button><br><br>
+       
+      <p class="message">Not registered? <a href="signUp.html">Create an account</a></p>
+      <p class="message"><a href="forgot_password.html">Forgot Password ?</a></p>
+  </div>
+</div>
+</body>
+<!-- Insert these scripts at the bottom of the HTML, but before you use any Firebase services -->
+
+  <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-app.js"></script>
+
+  <!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+  <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-analytics.js"></script>
+
+  <!-- Add Firebase products that you want to use -->
+  <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-firestore.js"></script>
+  <script type="text/javascript" src="login.js"></script>
+  <script type="text/javascript" src="toast.js"></script>
+</html>
